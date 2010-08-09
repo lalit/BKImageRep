@@ -1,0 +1,18 @@
+h1. BKImageRep
+
+h2. About
+
+BKImageRep (and its subclasses) is an image representation for UIImage. It lets you manipulate image data without directly accessing to the Core Graphics framework. 
+
+h2. Background
+
+Due to a light-weighted nature of Cocoa touch, a number of useful classes found on Cocoa is missing (probably existed but hidden as private API). The lack of image representation classes is one example. I don't want to tackle into cumbersome functions of the Core Graphics when I need to directly manipulate image data!
+
+h2. Goal of the project
+
+This project is intended to create a systematic library that has the same API as NSImageRep and its subclasses on the Cocoa framework. 
+
+h2. Contact
+
+* "http://blog.boreal-kiss.net/":http://blog.boreal-kiss.net/
+* "http://twitter.com/borealkiss":http://twitter.com/borealkiss

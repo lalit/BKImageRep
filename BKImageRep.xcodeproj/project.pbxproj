@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		93B2961B11D72BEB00E0A759 /* BKImageRep-iphoneos3.2-0.9 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 93B2961E11D72C0900E0A759 /* Build configuration list for PBXAggregateTarget "BKImageRep-iphoneos3.2-0.9" */;
+			buildPhases = (
+				93B2961A11D72BEB00E0A759 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "BKImageRep-iphoneos3.2-0.9";
+			productName = "BKImageRep-iphoneos3.2-0.9";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		9360CD4E11E71AF900C6D48E /* BKBitmapImageRep-Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9360CD4D11E71AF900C6D48E /* BKBitmapImageRep-Test.m */; };
+		9360CD7711E727AA00C6D48E /* BKBitmapImageRep-PixelFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 9360CD7611E727AA00C6D48E /* BKBitmapImageRep-PixelFormats.m */; };
+		9360CE0811E75E8300C6D48E /* BKBitmapImageRep-Override.h in Headers */ = {isa = PBXBuildFile; fileRef = 937939EE11DC63C200D54D6D /* BKBitmapImageRep-Override.h */; };
+		9360CE0911E75E8300C6D48E /* BKBitmapImageRep-PixelFormats.h in Headers */ = {isa = PBXBuildFile; fileRef = 9360CD7511E727AA00C6D48E /* BKBitmapImageRep-PixelFormats.h */; };
+		9360CE1011E75E9600C6D48E /* BKBitmapImageRep-Override.m in Sources */ = {isa = PBXBuildFile; fileRef = 937939EF11DC63C200D54D6D /* BKBitmapImageRep-Override.m */; };
+		9360CE1111E75E9600C6D48E /* BKBitmapImageRep-PixelFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 9360CD7611E727AA00C6D48E /* BKBitmapImageRep-PixelFormats.m */; };
+		9360CE1211E75EB000C6D48E /* BKBitmapImageRep-Override.h in Headers */ = {isa = PBXBuildFile; fileRef = 937939EE11DC63C200D54D6D /* BKBitmapImageRep-Override.h */; };
+		9360CE1311E75EB000C6D48E /* BKBitmapImageRep-PixelFormats.h in Headers */ = {isa = PBXBuildFile; fileRef = 9360CD7511E727AA00C6D48E /* BKBitmapImageRep-PixelFormats.h */; };
+		9360CE1411E75EB900C6D48E /* BKBitmapImageRep-Override.m in Sources */ = {isa = PBXBuildFile; fileRef = 937939EF11DC63C200D54D6D /* BKBitmapImageRep-Override.m */; };
+		9360CE1511E75EB900C6D48E /* BKBitmapImageRep-PixelFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 9360CD7611E727AA00C6D48E /* BKBitmapImageRep-PixelFormats.m */; };
+		937939F011DC63C200D54D6D /* BKBitmapImageRep-Override.m in Sources */ = {isa = PBXBuildFile; fileRef = 937939EF11DC63C200D54D6D /* BKBitmapImageRep-Override.m */; };
+		9395F8C311C24B2D0087DFC0 /* BKBitmapImageRep-Accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38311C0DD8200033025 /* BKBitmapImageRep-Accessors.h */; };
+		9395F8C411C24B2D0087DFC0 /* BKBitmapImageRep-Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38511C0DD8200033025 /* BKBitmapImageRep-Utilities.h */; };
+		9395F8C511C24B2D0087DFC0 /* BKBitmapImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38711C0DD8200033025 /* BKBitmapImageRep.h */; };
+		9395F8C611C24B2D0087DFC0 /* BKColorSpace-Accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38A11C0DD8200033025 /* BKColorSpace-Accessors.h */; };
+		9395F8C711C24B2D0087DFC0 /* BKColorSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38C11C0DD8200033025 /* BKColorSpace.h */; };
+		9395F8C811C24B2D0087DFC0 /* BKImageRep-Accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38F11C0DD8200033025 /* BKImageRep-Accessors.h */; };
+		9395F8C911C24B2D0087DFC0 /* BKImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD39111C0DD8200033025 /* BKImageRep.h */; };
+		9395F8CA11C24B3B0087DFC0 /* BKBitmapImageRep-Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38411C0DD8200033025 /* BKBitmapImageRep-Accessors.m */; };
+		9395F8CB11C24B3B0087DFC0 /* BKBitmapImageRep-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38611C0DD8200033025 /* BKBitmapImageRep-Utilities.m */; };
+		9395F8CC11C24B3B0087DFC0 /* BKBitmapImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38811C0DD8200033025 /* BKBitmapImageRep.m */; };
+		9395F8CD11C24B3B0087DFC0 /* BKColorSpace-Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38B11C0DD8200033025 /* BKColorSpace-Accessors.m */; };
+		9395F8CE11C24B3B0087DFC0 /* BKColorSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38D11C0DD8200033025 /* BKColorSpace.m */; };
+		9395F8CF11C24B3B0087DFC0 /* BKImageRep-Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD39011C0DD8200033025 /* BKImageRep-Accessors.m */; };
+		9395F8D011C24B3B0087DFC0 /* BKImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD39211C0DD8200033025 /* BKImageRep.m */; };
+		9395F8D111C24B470087DFC0 /* BKBitmapImageRep-Accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38311C0DD8200033025 /* BKBitmapImageRep-Accessors.h */; };
+		9395F8D211C24B470087DFC0 /* BKBitmapImageRep-Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38511C0DD8200033025 /* BKBitmapImageRep-Utilities.h */; };
+		9395F8D311C24B470087DFC0 /* BKBitmapImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38711C0DD8200033025 /* BKBitmapImageRep.h */; };
+		9395F8D411C24B470087DFC0 /* BKColorSpace-Accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38A11C0DD8200033025 /* BKColorSpace-Accessors.h */; };
+		9395F8D511C24B470087DFC0 /* BKColorSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38C11C0DD8200033025 /* BKColorSpace.h */; };
+		9395F8D611C24B470087DFC0 /* BKImageRep-Accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD38F11C0DD8200033025 /* BKImageRep-Accessors.h */; };
+		9395F8D711C24B470087DFC0 /* BKImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDD39111C0DD8200033025 /* BKImageRep.h */; };
+		9395F8D811C24B4F0087DFC0 /* BKBitmapImageRep-Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38411C0DD8200033025 /* BKBitmapImageRep-Accessors.m */; };
+		9395F8D911C24B4F0087DFC0 /* BKBitmapImageRep-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38611C0DD8200033025 /* BKBitmapImageRep-Utilities.m */; };
+		9395F8DA11C24B4F0087DFC0 /* BKBitmapImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38811C0DD8200033025 /* BKBitmapImageRep.m */; };
+		9395F8DB11C24B4F0087DFC0 /* BKColorSpace-Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38B11C0DD8200033025 /* BKColorSpace-Accessors.m */; };
+		9395F8DC11C24B4F0087DFC0 /* BKColorSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38D11C0DD8200033025 /* BKColorSpace.m */; };
+		9395F8DD11C24B4F0087DFC0 /* BKImageRep-Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD39011C0DD8200033025 /* BKImageRep-Accessors.m */; };
+		9395F8DE11C24B4F0087DFC0 /* BKImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD39211C0DD8200033025 /* BKImageRep.m */; };
+		93A54CA312103A5D00A6DB1F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A54C9D12103A5D00A6DB1F /* Icon-72.png */; };
+		93A54CA412103A5D00A6DB1F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A54C9E12103A5D00A6DB1F /* Icon-Small-50.png */; };
+		93A54CA512103A5D00A6DB1F /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A54C9F12103A5D00A6DB1F /* Icon-Small.png */; };
+		93A54CA612103A5D00A6DB1F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A54CA012103A5D00A6DB1F /* Icon-Small@2x.png */; };
+		93A54CA712103A5D00A6DB1F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A54CA112103A5D00A6DB1F /* Icon.png */; };
+		93A54CA812103A5D00A6DB1F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A54CA212103A5D00A6DB1F /* Icon@2x.png */; };
+		93D747D711E7026E0043043F /* TestVC-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93D747D511E7026E0043043F /* TestVC-iPad.xib */; };
+		93D747D811E7026E0043043F /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93D747D611E7026E0043043F /* TestVC.xib */; };
+		93DDD39911C0DD8200033025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38111C0DD8200033025 /* AppDelegate.m */; };
+		93DDD39A11C0DD8200033025 /* BKBitmapImageRep-Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38411C0DD8200033025 /* BKBitmapImageRep-Accessors.m */; };
+		93DDD39B11C0DD8200033025 /* BKBitmapImageRep-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38611C0DD8200033025 /* BKBitmapImageRep-Utilities.m */; };
+		93DDD39C11C0DD8200033025 /* BKBitmapImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38811C0DD8200033025 /* BKBitmapImageRep.m */; };
+		93DDD39D11C0DD8200033025 /* BKColorSpace-Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38B11C0DD8200033025 /* BKColorSpace-Accessors.m */; };
+		93DDD39E11C0DD8200033025 /* BKColorSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD38D11C0DD8200033025 /* BKColorSpace.m */; };
+		93DDD39F11C0DD8200033025 /* BKImageRep-Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD39011C0DD8200033025 /* BKImageRep-Accessors.m */; };
+		93DDD3A011C0DD8200033025 /* BKImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD39211C0DD8200033025 /* BKImageRep.m */; };
+		93DDD3A111C0DD8200033025 /* TestVC-UIImagePickerControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD39611C0DD8200033025 /* TestVC-UIImagePickerControllerDelegate.m */; };
+		93DDD3A211C0DD8200033025 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD39811C0DD8200033025 /* TestVC.m */; };
+		93DDD3BE11C0DEE300033025 /* TestVC-UIPopoverControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDD3BD11C0DEE300033025 /* TestVC-UIPopoverControllerDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* BKImageRep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKImageRep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9360CD4C11E71AF900C6D48E /* BKBitmapImageRep-Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKBitmapImageRep-Test.h"; sourceTree = "<group>"; };
+		9360CD4D11E71AF900C6D48E /* BKBitmapImageRep-Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKBitmapImageRep-Test.m"; sourceTree = "<group>"; };
+		9360CD7511E727AA00C6D48E /* BKBitmapImageRep-PixelFormats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKBitmapImageRep-PixelFormats.h"; sourceTree = "<group>"; };
+		9360CD7611E727AA00C6D48E /* BKBitmapImageRep-PixelFormats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKBitmapImageRep-PixelFormats.m"; sourceTree = "<group>"; };
+		937939EE11DC63C200D54D6D /* BKBitmapImageRep-Override.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKBitmapImageRep-Override.h"; sourceTree = "<group>"; };
+		937939EF11DC63C200D54D6D /* BKBitmapImageRep-Override.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKBitmapImageRep-Override.m"; sourceTree = "<group>"; };
+		9395F8B911C24B0A0087DFC0 /* libBKImageRep-iphonesimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libBKImageRep-iphonesimulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9395F8C011C24B190087DFC0 /* libBKImageRep-iphoneos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libBKImageRep-iphoneos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A54C9D12103A5D00A6DB1F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		93A54C9E12103A5D00A6DB1F /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		93A54C9F12103A5D00A6DB1F /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		93A54CA012103A5D00A6DB1F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		93A54CA112103A5D00A6DB1F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		93A54CA212103A5D00A6DB1F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		93D747D511E7026E0043043F /* TestVC-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "TestVC-iPad.xib"; sourceTree = "<group>"; };
+		93D747D611E7026E0043043F /* TestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
+		93DDD38011C0DD8200033025 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93DDD38111C0DD8200033025 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93DDD38311C0DD8200033025 /* BKBitmapImageRep-Accessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKBitmapImageRep-Accessors.h"; sourceTree = "<group>"; };
+		93DDD38411C0DD8200033025 /* BKBitmapImageRep-Accessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKBitmapImageRep-Accessors.m"; sourceTree = "<group>"; };
+		93DDD38511C0DD8200033025 /* BKBitmapImageRep-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKBitmapImageRep-Utilities.h"; sourceTree = "<group>"; };
+		93DDD38611C0DD8200033025 /* BKBitmapImageRep-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKBitmapImageRep-Utilities.m"; sourceTree = "<group>"; };
+		93DDD38711C0DD8200033025 /* BKBitmapImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKBitmapImageRep.h; sourceTree = "<group>"; };
+		93DDD38811C0DD8200033025 /* BKBitmapImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKBitmapImageRep.m; sourceTree = "<group>"; };
+		93DDD38A11C0DD8200033025 /* BKColorSpace-Accessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKColorSpace-Accessors.h"; sourceTree = "<group>"; };
+		93DDD38B11C0DD8200033025 /* BKColorSpace-Accessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKColorSpace-Accessors.m"; sourceTree = "<group>"; };
+		93DDD38C11C0DD8200033025 /* BKColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKColorSpace.h; sourceTree = "<group>"; };
+		93DDD38D11C0DD8200033025 /* BKColorSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKColorSpace.m; sourceTree = "<group>"; };
+		93DDD38F11C0DD8200033025 /* BKImageRep-Accessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKImageRep-Accessors.h"; sourceTree = "<group>"; };
+		93DDD39011C0DD8200033025 /* BKImageRep-Accessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKImageRep-Accessors.m"; sourceTree = "<group>"; };
+		93DDD39111C0DD8200033025 /* BKImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKImageRep.h; sourceTree = "<group>"; };
+		93DDD39211C0DD8200033025 /* BKImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKImageRep.m; sourceTree = "<group>"; };
+		93DDD39511C0DD8200033025 /* TestVC-UIImagePickerControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestVC-UIImagePickerControllerDelegate.h"; sourceTree = "<group>"; };
+		93DDD39611C0DD8200033025 /* TestVC-UIImagePickerControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TestVC-UIImagePickerControllerDelegate.m"; sourceTree = "<group>"; };
+		93DDD39711C0DD8200033025 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		93DDD39811C0DD8200033025 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		93DDD3BC11C0DEE300033025 /* TestVC-UIPopoverControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestVC-UIPopoverControllerDelegate.h"; sourceTree = "<group>"; };
+		93DDD3BD11C0DEE300033025 /* TestVC-UIPopoverControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TestVC-UIPopoverControllerDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9395F8B711C24B0A0087DFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9395F8BE11C24B190087DFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9360CD4B11E71AE100C6D48E /* BKBitmapImageRep-Additions */,
+				93DDD37F11C0DD8200033025 /* AppDelegate */,
+				93DDD38211C0DD8200033025 /* BKBitmapImageRep */,
+				93DDD38911C0DD8200033025 /* BKColorSpace */,
+				93DDD38E11C0DD8200033025 /* BKImageRep */,
+				93DDD39311C0DD8200033025 /* Libs */,
+				93DDD39411C0DD8200033025 /* TestVC */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* BKImageRep.app */,
+				9395F8B911C24B0A0087DFC0 /* libBKImageRep-iphonesimulator.a */,
+				9395F8C011C24B190087DFC0 /* libBKImageRep-iphoneos.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93A54C9C12103A5D00A6DB1F /* Icons */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9360CD4B11E71AE100C6D48E /* BKBitmapImageRep-Additions */ = {
+			isa = PBXGroup;
+			children = (
+				9360CD4C11E71AF900C6D48E /* BKBitmapImageRep-Test.h */,
+				9360CD4D11E71AF900C6D48E /* BKBitmapImageRep-Test.m */,
+			);
+			path = "BKBitmapImageRep-Additions";
+			sourceTree = "<group>";
+		};
+		93A54C9C12103A5D00A6DB1F /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				93A54C9D12103A5D00A6DB1F /* Icon-72.png */,
+				93A54C9E12103A5D00A6DB1F /* Icon-Small-50.png */,
+				93A54C9F12103A5D00A6DB1F /* Icon-Small.png */,
+				93A54CA012103A5D00A6DB1F /* Icon-Small@2x.png */,
+				93A54CA112103A5D00A6DB1F /* Icon.png */,
+				93A54CA212103A5D00A6DB1F /* Icon@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		93D747D411E7026E0043043F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93D747D511E7026E0043043F /* TestVC-iPad.xib */,
+				93D747D611E7026E0043043F /* TestVC.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93DDD37F11C0DD8200033025 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				93DDD38011C0DD8200033025 /* AppDelegate.h */,
+				93DDD38111C0DD8200033025 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		93DDD38211C0DD8200033025 /* BKBitmapImageRep */ = {
+			isa = PBXGroup;
+			children = (
+				93DDD38311C0DD8200033025 /* BKBitmapImageRep-Accessors.h */,
+				93DDD38411C0DD8200033025 /* BKBitmapImageRep-Accessors.m */,
+				93DDD38511C0DD8200033025 /* BKBitmapImageRep-Utilities.h */,
+				93DDD38611C0DD8200033025 /* BKBitmapImageRep-Utilities.m */,
+				937939EE11DC63C200D54D6D /* BKBitmapImageRep-Override.h */,
+				937939EF11DC63C200D54D6D /* BKBitmapImageRep-Override.m */,
+				93DDD38711C0DD8200033025 /* BKBitmapImageRep.h */,
+				93DDD38811C0DD8200033025 /* BKBitmapImageRep.m */,
+				9360CD7511E727AA00C6D48E /* BKBitmapImageRep-PixelFormats.h */,
+				9360CD7611E727AA00C6D48E /* BKBitmapImageRep-PixelFormats.m */,
+			);
+			path = BKBitmapImageRep;
+			sourceTree = "<group>";
+		};
+		93DDD38911C0DD8200033025 /* BKColorSpace */ = {
+			isa = PBXGroup;
+			children = (
+				93DDD38A11C0DD8200033025 /* BKColorSpace-Accessors.h */,
+				93DDD38B11C0DD8200033025 /* BKColorSpace-Accessors.m */,
+				93DDD38C11C0DD8200033025 /* BKColorSpace.h */,
+				93DDD38D11C0DD8200033025 /* BKColorSpace.m */,
+			);
+			path = BKColorSpace;
+			sourceTree = "<group>";
+		};
+		93DDD38E11C0DD8200033025 /* BKImageRep */ = {
+			isa = PBXGroup;
+			children = (
+				93DDD38F11C0DD8200033025 /* BKImageRep-Accessors.h */,
+				93DDD39011C0DD8200033025 /* BKImageRep-Accessors.m */,
+				93DDD39111C0DD8200033025 /* BKImageRep.h */,
+				93DDD39211C0DD8200033025 /* BKImageRep.m */,
+			);
+			path = BKImageRep;
+			sourceTree = "<group>";
+		};
+		93DDD39311C0DD8200033025 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		93DDD39411C0DD8200033025 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				93D747D411E7026E0043043F /* Resources */,
+				93DDD39511C0DD8200033025 /* TestVC-UIImagePickerControllerDelegate.h */,
+				93DDD39611C0DD8200033025 /* TestVC-UIImagePickerControllerDelegate.m */,
+				93DDD39711C0DD8200033025 /* TestVC.h */,
+				93DDD39811C0DD8200033025 /* TestVC.m */,
+				93DDD3BC11C0DEE300033025 /* TestVC-UIPopoverControllerDelegate.h */,
+				93DDD3BD11C0DEE300033025 /* TestVC-UIPopoverControllerDelegate.m */,
+			);
+			path = TestVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9395F8B511C24B0A0087DFC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9395F8C311C24B2D0087DFC0 /* BKBitmapImageRep-Accessors.h in Headers */,
+				9395F8C411C24B2D0087DFC0 /* BKBitmapImageRep-Utilities.h in Headers */,
+				9360CE0811E75E8300C6D48E /* BKBitmapImageRep-Override.h in Headers */,
+				9395F8C511C24B2D0087DFC0 /* BKBitmapImageRep.h in Headers */,
+				9360CE0911E75E8300C6D48E /* BKBitmapImageRep-PixelFormats.h in Headers */,
+				9395F8C611C24B2D0087DFC0 /* BKColorSpace-Accessors.h in Headers */,
+				9395F8C711C24B2D0087DFC0 /* BKColorSpace.h in Headers */,
+				9395F8C811C24B2D0087DFC0 /* BKImageRep-Accessors.h in Headers */,
+				9395F8C911C24B2D0087DFC0 /* BKImageRep.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9395F8BC11C24B190087DFC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9395F8D111C24B470087DFC0 /* BKBitmapImageRep-Accessors.h in Headers */,
+				9360CE1211E75EB000C6D48E /* BKBitmapImageRep-Override.h in Headers */,
+				9360CE1311E75EB000C6D48E /* BKBitmapImageRep-PixelFormats.h in Headers */,
+				9395F8D211C24B470087DFC0 /* BKBitmapImageRep-Utilities.h in Headers */,
+				9395F8D311C24B470087DFC0 /* BKBitmapImageRep.h in Headers */,
+				9395F8D411C24B470087DFC0 /* BKColorSpace-Accessors.h in Headers */,
+				9395F8D511C24B470087DFC0 /* BKColorSpace.h in Headers */,
+				9395F8D611C24B470087DFC0 /* BKImageRep-Accessors.h in Headers */,
+				9395F8D711C24B470087DFC0 /* BKImageRep.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BKImageRep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BKImageRep" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BKImageRep;
+			productName = BKImageRep;
+			productReference = 1D6058910D05DD3D006BFB54 /* BKImageRep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9395F8B811C24B0A0087DFC0 /* BKImageRep-iphonesimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9395F8FF11C24B680087DFC0 /* Build configuration list for PBXNativeTarget "BKImageRep-iphonesimulator" */;
+			buildPhases = (
+				9395F8B511C24B0A0087DFC0 /* Headers */,
+				9395F8B611C24B0A0087DFC0 /* Sources */,
+				9395F8B711C24B0A0087DFC0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BKImageRep-iphonesimulator";
+			productName = "BKImageRep-iphonesimulator";
+			productReference = 9395F8B911C24B0A0087DFC0 /* libBKImageRep-iphonesimulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9395F8BF11C24B190087DFC0 /* BKImageRep-iphoneos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9395F90011C24B680087DFC0 /* Build configuration list for PBXNativeTarget "BKImageRep-iphoneos" */;
+			buildPhases = (
+				9395F8BC11C24B190087DFC0 /* Headers */,
+				9395F8BD11C24B190087DFC0 /* Sources */,
+				9395F8BE11C24B190087DFC0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BKImageRep-iphoneos";
+			productName = "BKImageRep-iphoneos";
+			productReference = 9395F8C011C24B190087DFC0 /* libBKImageRep-iphoneos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BKImageRep" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BKImageRep */,
+				9395F8B811C24B0A0087DFC0 /* BKImageRep-iphonesimulator */,
+				9395F8BF11C24B190087DFC0 /* BKImageRep-iphoneos */,
+				93B2961B11D72BEB00E0A759 /* BKImageRep-iphoneos3.2-0.9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D747D711E7026E0043043F /* TestVC-iPad.xib in Resources */,
+				93D747D811E7026E0043043F /* TestVC.xib in Resources */,
+				93A54CA312103A5D00A6DB1F /* Icon-72.png in Resources */,
+				93A54CA412103A5D00A6DB1F /* Icon-Small-50.png in Resources */,
+				93A54CA512103A5D00A6DB1F /* Icon-Small.png in Resources */,
+				93A54CA612103A5D00A6DB1F /* Icon-Small@2x.png in Resources */,
+				93A54CA712103A5D00A6DB1F /* Icon.png in Resources */,
+				93A54CA812103A5D00A6DB1F /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93B2961A11D72BEB00E0A759 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rf build/${BUILD_STYLE}-iphoneos/libBKImageRep-iphoneos3.2-0.9.a\n\nlipo -create \"build/${BUILD_STYLE}-iphoneos/libBKImageRep-iphoneos.a\" \"build/${BUILD_STYLE}-iphonesimulator/libBKImageRep-iphonesimulator.a\" -output \"build/${BUILD_STYLE}-iphoneos/libBKImageRep-iphoneos3.2-0.9.a\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				93DDD39911C0DD8200033025 /* AppDelegate.m in Sources */,
+				93DDD39A11C0DD8200033025 /* BKBitmapImageRep-Accessors.m in Sources */,
+				93DDD39B11C0DD8200033025 /* BKBitmapImageRep-Utilities.m in Sources */,
+				93DDD39C11C0DD8200033025 /* BKBitmapImageRep.m in Sources */,
+				93DDD39D11C0DD8200033025 /* BKColorSpace-Accessors.m in Sources */,
+				93DDD39E11C0DD8200033025 /* BKColorSpace.m in Sources */,
+				93DDD39F11C0DD8200033025 /* BKImageRep-Accessors.m in Sources */,
+				93DDD3A011C0DD8200033025 /* BKImageRep.m in Sources */,
+				93DDD3A111C0DD8200033025 /* TestVC-UIImagePickerControllerDelegate.m in Sources */,
+				93DDD3A211C0DD8200033025 /* TestVC.m in Sources */,
+				93DDD3BE11C0DEE300033025 /* TestVC-UIPopoverControllerDelegate.m in Sources */,
+				937939F011DC63C200D54D6D /* BKBitmapImageRep-Override.m in Sources */,
+				9360CD4E11E71AF900C6D48E /* BKBitmapImageRep-Test.m in Sources */,
+				9360CD7711E727AA00C6D48E /* BKBitmapImageRep-PixelFormats.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9395F8B611C24B0A0087DFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9395F8CA11C24B3B0087DFC0 /* BKBitmapImageRep-Accessors.m in Sources */,
+				9395F8CB11C24B3B0087DFC0 /* BKBitmapImageRep-Utilities.m in Sources */,
+				9360CE1011E75E9600C6D48E /* BKBitmapImageRep-Override.m in Sources */,
+				9395F8CC11C24B3B0087DFC0 /* BKBitmapImageRep.m in Sources */,
+				9360CE1111E75E9600C6D48E /* BKBitmapImageRep-PixelFormats.m in Sources */,
+				9395F8CD11C24B3B0087DFC0 /* BKColorSpace-Accessors.m in Sources */,
+				9395F8CE11C24B3B0087DFC0 /* BKColorSpace.m in Sources */,
+				9395F8CF11C24B3B0087DFC0 /* BKImageRep-Accessors.m in Sources */,
+				9395F8D011C24B3B0087DFC0 /* BKImageRep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9395F8BD11C24B190087DFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9395F8D811C24B4F0087DFC0 /* BKBitmapImageRep-Accessors.m in Sources */,
+				9360CE1411E75EB900C6D48E /* BKBitmapImageRep-Override.m in Sources */,
+				9360CE1511E75EB900C6D48E /* BKBitmapImageRep-PixelFormats.m in Sources */,
+				9395F8D911C24B4F0087DFC0 /* BKBitmapImageRep-Utilities.m in Sources */,
+				9395F8DA11C24B4F0087DFC0 /* BKBitmapImageRep.m in Sources */,
+				9395F8DB11C24B4F0087DFC0 /* BKColorSpace-Accessors.m in Sources */,
+				9395F8DC11C24B4F0087DFC0 /* BKColorSpace.m in Sources */,
+				9395F8DD11C24B4F0087DFC0 /* BKImageRep-Accessors.m in Sources */,
+				9395F8DE11C24B4F0087DFC0 /* BKImageRep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = BKImageRep;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = BKImageRep;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9395F8BA11C24B0B0087DFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = "BKImageRep-iphonesimulator";
+			};
+			name = Debug;
+		};
+		9395F8BB11C24B0B0087DFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "BKImageRep-iphonesimulator";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		9395F8C111C24B1A0087DFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = "BKImageRep-iphoneos";
+			};
+			name = Debug;
+		};
+		9395F8C211C24B1A0087DFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "BKImageRep-iphoneos";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		93B2961C11D72BEB00E0A759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "BKImageRep-iphoneos3.2-0.9";
+			};
+			name = Debug;
+		};
+		93B2961D11D72BEB00E0A759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "BKImageRep-iphoneos3.2-0.9";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Classes/Libs\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Classes/Libs\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BKImageRep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9395F8FF11C24B680087DFC0 /* Build configuration list for PBXNativeTarget "BKImageRep-iphonesimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9395F8BA11C24B0B0087DFC0 /* Debug */,
+				9395F8BB11C24B0B0087DFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9395F90011C24B680087DFC0 /* Build configuration list for PBXNativeTarget "BKImageRep-iphoneos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9395F8C111C24B1A0087DFC0 /* Debug */,
+				9395F8C211C24B1A0087DFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B2961E11D72C0900E0A759 /* Build configuration list for PBXAggregateTarget "BKImageRep-iphoneos3.2-0.9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B2961C11D72BEB00E0A759 /* Debug */,
+				93B2961D11D72BEB00E0A759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BKImageRep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
